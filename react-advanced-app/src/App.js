@@ -1,12 +1,14 @@
 import './App.css';
 import Counter from './Counter';
 import NewCounter from './NewCounter';
+import NewUserinfo from './NewUserinfo';
+import Userinfo from './Userinfo';
 
 function App() {
   return (
     <div>
-      <Counter />
-      <NewCounter />
+      {/* <Userinfo /> */}
+      <NewUserinfo />
     </div>
   );
 }
